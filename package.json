@@ -1,0 +1,17 @@
+{
+  "name": "humanize-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free AI writing suite: paraphraser with 10 modes, grammar checker, summarizer and Word document rewriter with version history.",
+  "author": "Siddharth Bhat",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -k -n api,web -c blue,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  }
+}
