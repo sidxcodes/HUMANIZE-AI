@@ -136,7 +136,7 @@ export default function App() {
             <span>Rewrites can change meaning. Read every result before you use it, and follow your school's rules on AI use.</span>
             <span>
               Built by{' '}
-              <a href="https://github.com/SiddharthBhat120" target="_blank" rel="noreferrer">
+              <a href="https://github.com/sidxcodes" target="_blank" rel="noreferrer">
                 Siddharth Bhat
               </a>
             </span>
