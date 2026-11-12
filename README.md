@@ -1,5 +1,7 @@
 # Humanize AI
 
+[![build](https://github.com/sidxcodes/HUMANIZE-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/sidxcodes/HUMANIZE-AI/actions/workflows/ci.yml)
+
 A free AI writing suite for students. Paste a stiff or AI-sounding draft and get clear, natural writing back, one sentence at a time, with full control over what changes.
 
 ![Paraphraser](docs/screenshots/paraphraser.png)
